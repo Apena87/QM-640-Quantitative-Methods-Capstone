@@ -1,0 +1,3 @@
+test,outcome,grouping,k_groups,n_total,F_statistic,df_between,df_within,p_value,eta_squared
+One-way ANOVA,prescriber brand_share,state,54,995699,179.54074930118475,53,995645.0,0.0,0.009466804755052904
+Kruskal-Wallis H,prescriber brand_share,state,54,995699,7117.721128411673,53,,0.0,

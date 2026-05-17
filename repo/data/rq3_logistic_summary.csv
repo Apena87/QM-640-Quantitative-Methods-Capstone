@@ -1,0 +1,2 @@
+n_total,n_with_payments,pct_with_payments,n_used_in_logistic,n_specialties_modeled,above_median_outcome_share,pseudo_r_squared,log_likelihood,ll_null,lr_p_value,or_log_total_payment,or_log_meal,or_log_speaker,or_log_n_over_1k
+995954,568336,57.06448289780452,650861,20,0.499990013228631,0.008420763327960268,-447343.50305619766,-451142.4669979798,0.0,1.0353360484590104,0.9492554975745522,1.0236588017229902,1.0934931485150292
