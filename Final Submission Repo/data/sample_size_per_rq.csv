@@ -1,0 +1,6 @@
+RQ,Test,Parameters,Formula,Minimum_n,Achieved_n,Status
+RQ1,Multiple OLS Regression + 5-fold CV,"α=0.05, power=0.80, k=5 predictors, f²=0.15 (medium)",n = L/f² + k + 1   (Cohen 1988),92,3404,Exceeded
+RQ2,One-way ANOVA (full file) + Multivariable OLS (BRFSS+ACS),"α=0.05, power=0.80, k=54 states, f=0.25 (medium)",Noncentral F via iterative power.solve,567,995699,Exceeded
+RQ3,Specialty ANOVA + Within-Specialty Logistic Regression,"α=0.05, power=0.80, k=20 specialties, f=0.25 (medium); also 10 events/predictor (Peduzzi)",Noncentral F + Peduzzi rule of thumb,360,650861,Exceeded
+RQ4,K-means clustering,"k=4 clusters, 50-per-cluster heuristic (Mooi & Sarstedt 2011)",n_min = 50 × k,200,3598,Exceeded
+RQ5,"Sample mean + 1,000-iteration Bootstrap CI","95% CI, 5% relative precision, sigma/mu=0.5",n = (z * (sigma/mu) / E)^2,385,995954,Exceeded

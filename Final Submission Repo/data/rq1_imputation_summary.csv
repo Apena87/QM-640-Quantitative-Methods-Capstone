@@ -1,0 +1,10 @@
+metric,value
+n_total_drugs,3598.0
+n_drugs_missing_benes,194.0
+pct_drugs_missing_benes,5.391884380211229
+n_dropped_NA_approach,3404.0
+n_imputed_approach,3598.0
+additional_drugs_via_imputation,194.0
+r_squared_dropped,0.91300255841938
+r_squared_imputed,0.8871100623407113
+max_coef_abs_change,0.9989352600067088
